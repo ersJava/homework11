@@ -1,0 +1,270 @@
+tml, body {
+    margin:0;
+    padding:0;
+}
+
+/* Probably should have added the 960px content width somwhere before I began. We just learned how to outline
+your project first before starting your site! So maybe that's why so things don't line up, like my navigation button
+on the Contact and Portfolio pages... :(  */
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Background pattern from Toptal Subtle Patterns */
+body {
+    background-color: white;
+    }
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+  
+nav {
+    padding: 30px;
+    margin-bottom: 0;
+    word-spacing: 10px;
+    margin-top: 15px;
+    float: right;
+  }
+  
+p, nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  #h1home {
+      margin-left: 160px;
+  }
+
+  #homenav {
+      margin-right: 130px;
+  }
+
+  #navother { 
+    right: 17%;
+  /* I don't know how to get the nav on the Contact and Portfolio page to line up with the content box. Tried
+  many different things :(  */
+  }
+
+  #h1other {
+    margin-left: 331px;
+  }
+  
+
+
+.wrapper {
+    padding: 10px;
+    background-color: #ffff;
+    clear: both;
+    display: block;
+    border-top: 3px solid #ccc;
+    /* border-bottom: 10px solid #4aaaa5; */
+    background-image: url(tiny-squares.png); 
+}
+
+#rel {
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+    margin-right: 150px;
+    padding: 20px;
+    align-content: center;
+    block-size: 550px;
+    border: lightgray 1px solid;
+}
+
+#rel2 {
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 325px;
+    margin-bottom: 200px;
+    margin-right: 325px;
+    padding: 20px;
+    padding-top: 5px;
+    align-content: center;
+    block-size: 480px;
+    border: lightgray 1px solid;
+    width: 750px; 
+}
+
+#rel3 {
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 325px;
+    margin-bottom: 200px;
+    margin-right: 325px;
+    padding-top: 5px;
+    align-content: center;
+    border: lightgray 1px solid;
+    width: 750px;
+    height: 800px;
+    padding: 20px;
+}
+
+p {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+img {
+    float: left;
+    margin: 10px;  
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    block-size: 370px;
+    }
+
+
+/* hr {
+   border: 20;
+   color: #777777; 
+} */
+
+
+.pro1 {
+    position: absolute;
+    top: 390px;
+    left: 366px;
+    background-color: #4aaaa5;
+    width: 230px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.pro2 {
+    position: absolute;
+    top: 390px;
+    left: 616px;
+    background-color: #4aaaa5;
+    width: 230px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.pro3 {
+    position: absolute;
+    top: 610px;
+    left: 366px;
+    background-color: #4aaaa5;
+    width: 230px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.pro4 {
+    position: absolute;
+    top: 610px;
+    left: 616px;
+    background-color: #4aaaa5;
+    width: 230px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.pro5 {
+    position: absolute;
+    top: 831px;
+    left: 366px;
+    background-color: #4aaaa5;
+    width: 230px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:link {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#777777;
+    text-decoration: none;
+}
+
+a:active {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #cccccc;
+    padding: 30px;
+    padding-bottom: 5px;
+}
